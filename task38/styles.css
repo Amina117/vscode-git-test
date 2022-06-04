@@ -1,13 +1,15 @@
+
 section {
   margin: 32px;
 }
 
-body {
+html {
   font-weight: Roboto, sans-serif;
   font-size: 18px;
 }
 
 h1 {
+  word-spacing: 20px;
   text-align: center;
   text-transform: uppercase;
 }
