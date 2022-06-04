@@ -2,13 +2,11 @@
 
 section {
   margin: 32px;
-  font-weight: Roboto, sans-serif;
-  font-size: 18px;
 }
 
 body {
-  /* font-weight: Roboto, sans-serif;
-  font-size: 18px; */
+  font-weight: Roboto, sans-serif;
+  font-size: 18px;
 }
 
 h1 {
