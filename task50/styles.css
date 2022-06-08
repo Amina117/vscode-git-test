@@ -1,9 +1,17 @@
-.main-image {
+* {
+  box-sizing: border-box;
+}
+
+.image-container {
   margin: 50px auto;
-  display: block;
+}
+
+.main-image {
+  margin: 0 auto;
+  height: auto;
   max-width: 100%;
   border-radius: 20px;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg);
+  display: block;
 }
 
 .gallery {
@@ -12,7 +20,6 @@
 
 .card {
   margin: 16px;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg);
   box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
 }
 
