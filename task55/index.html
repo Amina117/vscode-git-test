@@ -16,12 +16,26 @@
   <body>
     <form>
       <div class="form">
-        <label>Last Name</label>
-        <input type="text" name="lastName" value="Emerson" readonly />
+        <label for="last-name-input">Last Name</label>
+        <input
+          type="text"
+          name="lastName"
+          id="last-name-input"
+          value="Emerson"
+          readonly
+        />
       </div>
       <div class="form">
-        <label>Age</label>
-        <input type="number" name="age" required value="17" min="3" max="10" />
+        <label for="age-input">Age</label>
+        <input
+          type="number"
+          id="age-input"
+          min="3"
+          max="10"
+          name="age"
+          required
+          value="17"
+        />
       </div>
       <div class="form">
         <label for="agree-input"
