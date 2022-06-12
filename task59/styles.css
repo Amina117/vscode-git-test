@@ -12,9 +12,10 @@ td,
 th {
   border: 1px solid #000000;
   border-collapse: collapse;
-  text-align: right;
 }
 
-td {
+td,
+th {
   padding: 4px;
+  text-align: right;
 }
