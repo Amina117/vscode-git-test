@@ -17,6 +17,10 @@
   color: #008000;
 }
 
+.custom-button:hover > .bird-icon {
+  fill: #ff0000;
+}
+
 .bird-icon {
   width: 32px;
   height: 32px;
