@@ -1,5 +1,6 @@
 .custom-button {
   margin: 64px;
+  padding: 0;
   width: 200px;
   height: 50px;
   background-color: #ff7f50;
