@@ -17,9 +17,13 @@
   color: #008b8b;
 }
 
+.custom-button:hover > .bird-icon {
+  fill: #008000;
+}
+
 .bird-icon {
   width: 32px;
   height: 32px;
   vertical-align: middle;
-  fill: #008000;
+  fill: #ffffff;
 }
