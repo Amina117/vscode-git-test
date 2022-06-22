@@ -30,7 +30,7 @@ h1 {
 }
 
 .navigation {
-  width: 20vw;
+  width: 20%;
   padding: 0.5em;
 }
 
@@ -58,6 +58,8 @@ h1 {
 }
 
 .section {
+  width: 60%;
+  padding: 0.5em;
   font-size: 1.25em;
 }
 
@@ -67,19 +69,18 @@ h1 {
 }
 
 .units-list {
-  width: 60vw;
-  padding: 0.5em;
   line-height: 1.75em;
 }
 
 .css-units {
   color: #8b0000;
   background-color: #e5e5e5;
+  font-size: 1.125em;
   font-weight: 700;
 }
 
 .news {
-  width: 20vw;
+  width: 20%;
   padding: 0.5em;
 }
 
