@@ -37,6 +37,8 @@ html {
 }
 
 .nav-list-item {
+  height: 2em;
+  line-height: 2em;
   background-color: #808080;
   margin-bottom: 0.5em;
 }
@@ -50,7 +52,6 @@ html {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  line-height: 2em;
 }
 
 @media screen and (max-width: 600px) {
@@ -60,7 +61,7 @@ html {
 }
 
 @media screen and (min-width: 600px) {
-    .header-button {
-      display: none;
-    }
+  .header-button {
+    display: none;
   }
+}
