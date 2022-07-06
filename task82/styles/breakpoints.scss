@@ -26,9 +26,3 @@ $lg: 1200px;
     }
   }
 
-
-  @media screen and (orientation: portrait) {
-    .container {
-      flex-direction: column;
-    }
-  }
