@@ -1,8 +1,3 @@
-@media screen and (orientation: portrait) {
-  .container {
-    flex-direction: column;
-  }
-}
 * {
   box-sizing: border-box;
 }
@@ -33,6 +28,12 @@ body {
 @media screen and (min-width: 1200px) {
   .square {
     background-color: #c47;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .container {
+    flex-direction: column;
   }
 }
 
