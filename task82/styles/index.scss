@@ -11,11 +11,15 @@ body {
   height: 100vh;
 }
 
+.container {
+  display: flex;
+}
+
 .square {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
-  margin: 16px;
+  margin: 8px;
 
   @include for-medium-down {
     background-color: #8a2be2;
@@ -30,8 +34,8 @@ body {
   }
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (orientation: portrait) {
   .container {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
