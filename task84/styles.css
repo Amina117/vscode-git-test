@@ -1,0 +1,43 @@
+.navigation {
+  height: 200px;
+  background-color: #ff7f50;
+  display: flex;
+  flex: 1;
+}
+
+.products-list {
+  height: 200px;
+  background-color: #006400;
+  display: flex;
+  flex: 1;
+}
+
+.news {
+  height: 200px;
+  background-color: #0ff;
+  display: flex;
+  flex: 1;
+}
+
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  text-transform: lowercase;
+  margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+  .products {
+    display: flex;
+    flex: 2;
+  }
+}
+@media screen and (min-width: 900px) {
+  .content {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
